@@ -65,7 +65,10 @@ master_doc = "index"
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = "en"
+# == 国际化输出 =======================================================================================
+language = 'zh_CN'
+locale_dirs = ['../../locales/']  # po files will be created in this directory
+# gettext_compact = False  # optional: avoid file concatenation in sub directories.
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -177,6 +180,9 @@ texinfo_documents = [
     )
 ]
 
+ogp_social_cards = {
+    "font": "Noto Sans CJK JP", # 支持中文字体
+}
 
 def setup(app):
     app.add_object_type(

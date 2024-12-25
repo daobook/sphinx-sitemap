@@ -1,0 +1,146 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-25 10:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/advanced-configuration.rst:2
+msgid "Advanced Configuration"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:7
+msgid "Customizing the URL Scheme"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:9
+msgid ""
+":confval:`sitemap_url_scheme` defaults to ``{lang}{version}{link}``, "
+"where ``{lang}`` and ``{version}`` get set by :confval:`language` and "
+":confval:`version` in **conf.py**."
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:11
+msgid ""
+"As of Sphinx version 5, ``language`` defaults to ``\"en\"``, if that "
+"makes the default scheme produce the incorrect URL, then change the "
+"default behavior."
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:14
+msgid ""
+"To change the default behavior, set the value of "
+":confval:`sitemap_url_scheme` in **conf.py** to the desired format. For "
+"example:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:21
+msgid "Or for nested deployments, something like:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:27
+msgid ""
+"The extension automatically appends trailing slashes to both the "
+"``language`` and ``version`` values. You can also omit values from the "
+"scheme for desired behavior."
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:34
+msgid "Changing the Filename"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:36
+msgid ""
+"Set :confval:`sitemap_filename` in **conf.py** to the desired filename, "
+"for example:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:43
+msgid "Version Support"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:45
+msgid ""
+":confval:`version` specifies the version of the sitemap. For multi-"
+"version sitemaps, generate a sitemap per version and then manually add "
+"each to a `sitemapindex.xml`_ file."
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:49
+msgid "Tagged Releases"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:51
+msgid ""
+"For a tagged release deploy strategy where the ``latest`` gets created "
+"from head of the branch and versions get created from tagged commits, "
+"check to see if the current commit matches the release tag regex and set "
+":confval:`version` accordingly."
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:63
+msgid ""
+"Set the canonical URL in the theme layout of all versions to the latest "
+"version of that page, for example:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:72
+msgid "Language Support"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:74
+msgid ""
+":confval:`language` specifies the primary language. Any alternative "
+"languages get detected using the contents of :confval:`locale_dirs`."
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:76
+msgid ""
+"For example, with a primary language of **en**, and **es** and **fr** as "
+"detected translations, the sitemap look like this:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:96
+msgid ""
+"Use :confval:`sitemap_locales` to manually specify a list of locales to "
+"include in the sitemap:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:102
+msgid ""
+"The end result looks something like the following for each "
+"language/version build:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:120
+msgid ""
+"To generate the primary language with no alternatives, set "
+":confval:`sitemap_locales` to ``[None]``:"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:126
+msgid ""
+"For multilingual sitemaps, generate a sitemap per language and then "
+"manually add each to a `sitemapindex.xml`_ file."
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:131
+msgid "Excluding Pages"
+msgstr ""
+
+#: ../../source/advanced-configuration.rst:133
+msgid "To exclude a set of pages, add each page's path to ``sitemap_exclude``:"
+msgstr ""
+

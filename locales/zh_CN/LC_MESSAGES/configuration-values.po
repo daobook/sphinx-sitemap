@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Jared Dillard
+# This file is distributed under the same license as the Sphinx Sitemap
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Sitemap latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-25 10:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/configuration-values.rst:2
+msgid "Project Configuration Values"
+msgstr ""
+
+#: ../../source/configuration-values.rst:4
+msgid "A list of of possible configuration values to configure in **conf.py**:"
+msgstr ""
+
+#: ../../source/configuration-values.rst:8
+msgid "The scheme used for URL structure. Default is ``{lang}{version}{link}``."
+msgstr ""
+
+#: ../../source/configuration-values.rst:10
+msgid "See :ref:`configuration_customizing_url_scheme` for more information."
+msgstr ""
+
+#: ../../source/configuration-values.rst:16
+msgid "The filename used for the the sitemap. Default is ``sitemap.xml``."
+msgstr ""
+
+#: ../../source/configuration-values.rst:18
+msgid "See :ref:`configuration_changing_filename` for more information."
+msgstr ""
+
+#: ../../source/configuration-values.rst:24
+msgid "The list of locales to include in the sitemap."
+msgstr ""
+
+#: ../../source/configuration-values.rst:26
+msgid ""
+"See :ref:`configuration_supporting_multiple_languages` for more "
+"information."
+msgstr ""
+
+#: ../../source/configuration-values.rst:32
+msgid "The list of pages to exclude from the sitemap."
+msgstr ""
+
+#: ../../source/configuration-values.rst:34
+msgid "See :ref:`configuration_excluding_pages` for more information."
+msgstr ""
+
