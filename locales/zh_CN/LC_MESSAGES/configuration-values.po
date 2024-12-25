@@ -22,43 +22,44 @@ msgstr ""
 
 #: ../../source/configuration-values.rst:2
 msgid "Project Configuration Values"
-msgstr ""
+msgstr "项目配置值"
 
 #: ../../source/configuration-values.rst:4
 msgid "A list of of possible configuration values to configure in **conf.py**:"
-msgstr ""
+msgstr "可在 **conf.py** 中配置的可能配置值的列表："
 
 #: ../../source/configuration-values.rst:8
 msgid "The scheme used for URL structure. Default is ``{lang}{version}{link}``."
-msgstr ""
+msgstr "用于URL结构的方案。默认是 ``{lang}{version}{link}``。"
 
 #: ../../source/configuration-values.rst:10
 msgid "See :ref:`configuration_customizing_url_scheme` for more information."
-msgstr ""
+msgstr "查阅 :ref:`configuration_customizing_url_scheme` 了解更多信息。"
 
 #: ../../source/configuration-values.rst:16
 msgid "The filename used for the the sitemap. Default is ``sitemap.xml``."
-msgstr ""
+msgstr "用于sitemap的文件名。默认是 ``sitemap.xml``。"
 
 #: ../../source/configuration-values.rst:18
 msgid "See :ref:`configuration_changing_filename` for more information."
-msgstr ""
+msgstr "查阅 :ref:`configuration_changing_filename` 了解更多信息。"
 
 #: ../../source/configuration-values.rst:24
 msgid "The list of locales to include in the sitemap."
-msgstr ""
+msgstr "要包含在站点地图中的 locales 列表。"
 
 #: ../../source/configuration-values.rst:26
 msgid ""
 "See :ref:`configuration_supporting_multiple_languages` for more "
 "information."
 msgstr ""
+"查阅 :ref:`configuration_supporting_multiple_languages` 了解更多信息。"
 
 #: ../../source/configuration-values.rst:32
 msgid "The list of pages to exclude from the sitemap."
-msgstr ""
+msgstr "要从站点地图中排除的页面列表。"
 
 #: ../../source/configuration-values.rst:34
 msgid "See :ref:`configuration_excluding_pages` for more information."
-msgstr ""
+msgstr "查阅 :ref:`configuration_excluding_pages` 了解更多信息。"
 

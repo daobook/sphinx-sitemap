@@ -19,51 +19,55 @@ msgstr ""
 
 #: ../../source/getting-started.rst:2
 msgid "Getting Started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/getting-started.rst:5
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #: ../../source/getting-started.rst:7
 msgid "Directly install via ``pip`` by using:"
-msgstr ""
+msgstr "直接使用 ``pip`` 安装："
 
 #: ../../source/getting-started.rst:13
 msgid "Or with ``conda`` via ``conda-forge``:"
-msgstr ""
+msgstr "或者使用 ``conda-forge`` 的 ``conda`` 安装："
 
 #: ../../source/getting-started.rst:20
 msgid "Usage"
-msgstr ""
+msgstr "用法"
 
 #: ../../source/getting-started.rst:22
 msgid ""
 "Add ``sphinx_sitemap`` to :confval:`extensions` in your Sphinx "
 "**conf.py**. For example:"
 msgstr ""
+"将 ``sphinx_sitemap`` 添加到你的 Sphinx **conf.py** 的 :confval:`extensions` 中。例如："
 
 #: ../../source/getting-started.rst:29
 msgid ""
 "Set the value of :confval:`html_baseurl` in your Sphinx **conf.py** to "
 "the current base URL of your documentation. For example:"
 msgstr ""
+"在你的 Sphinx **conf.py** 中设置 :confval:`html_baseurl` 的值为你的文档的当前基础 URL。例如："
 
 #: ../../source/getting-started.rst:36
 msgid ""
 "After the HTML finishes building, **sphinx-sitemap** will output the "
 "location of the sitemap::"
 msgstr ""
+"构建完成后，**sphinx-sitemap** 将输出 sitemap 的位置::"
 
 #: ../../source/getting-started.rst:40
 msgid ""
 "Make sure to confirm the accuracy of the sitemap after installs and "
 "upgrades."
 msgstr ""
+"在安装和升级后确认 sitemap 的准确性。"
 
 #: ../../source/getting-started.rst:42
 msgid ""
 "See :doc:`advanced-configuration` for more information about how to use "
 "**sphinx-sitemap**."
 msgstr ""
-
+"更多关于如何使用 **sphinx-sitemap** 的信息，请参见 :doc:`advanced-configuration`。"

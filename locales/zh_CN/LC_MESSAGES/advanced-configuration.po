@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/advanced-configuration.rst:2
 msgid "Advanced Configuration"
-msgstr ""
+msgstr "高级配置"
 
 #: ../../source/advanced-configuration.rst:7
 msgid "Customizing the URL Scheme"
-msgstr ""
+msgstr "定制 URL 方案"
 
 #: ../../source/advanced-configuration.rst:9
 msgid ""
@@ -31,6 +31,9 @@ msgid ""
 "where ``{lang}`` and ``{version}`` get set by :confval:`language` and "
 ":confval:`version` in **conf.py**."
 msgstr ""
+":confval:`sitemap_url_scheme` 默认值为 ``{lang}{version}{link}``，"
+"其中 ``{lang}`` 和 ``{version}`` 分别由 **conf.py** 中的 "
+":confval:`language` 和 :confval:`version` 配置项设置。"
 
 #: ../../source/advanced-configuration.rst:11
 msgid ""
@@ -38,6 +41,8 @@ msgid ""
 "makes the default scheme produce the incorrect URL, then change the "
 "default behavior."
 msgstr ""
+"自 Sphinx 版本 5 起，``language`` 默认值为 ``\"en\"``，如果这会导致 "
+"默认方案产生不正确的 URL，请更改默认行为。"
 
 #: ../../source/advanced-configuration.rst:14
 msgid ""
@@ -45,10 +50,12 @@ msgid ""
 ":confval:`sitemap_url_scheme` in **conf.py** to the desired format. For "
 "example:"
 msgstr ""
+"改变默认行为，将 **conf.py** 中的 :confval:`sitemap_url_scheme` 设置为 "
+"所需格式。例如："
 
 #: ../../source/advanced-configuration.rst:21
 msgid "Or for nested deployments, something like:"
-msgstr ""
+msgstr "或者对于嵌套部署，类似于："
 
 #: ../../source/advanced-configuration.rst:27
 msgid ""
@@ -56,20 +63,23 @@ msgid ""
 "``language`` and ``version`` values. You can also omit values from the "
 "scheme for desired behavior."
 msgstr ""
+"插件会自动将 ``language`` 和 ``version`` 值的尾部斜杠添加到方案中。"
+"你也可以从方案中省略值以获得所需的行为。"
 
 #: ../../source/advanced-configuration.rst:34
 msgid "Changing the Filename"
-msgstr ""
+msgstr "更改文件名"
 
 #: ../../source/advanced-configuration.rst:36
 msgid ""
 "Set :confval:`sitemap_filename` in **conf.py** to the desired filename, "
 "for example:"
 msgstr ""
+"将 **conf.py** 中的 :confval:`sitemap_filename` 设置为所需的文件名，例如："
 
 #: ../../source/advanced-configuration.rst:43
 msgid "Version Support"
-msgstr ""
+msgstr "版本支持"
 
 #: ../../source/advanced-configuration.rst:45
 msgid ""
@@ -77,10 +87,12 @@ msgid ""
 "version sitemaps, generate a sitemap per version and then manually add "
 "each to a `sitemapindex.xml`_ file."
 msgstr ""
+":confval:`version` 指定了 sitemap 的版本。对于多版本 sitemap，为每个版本生成 "
+"sitemap 并手动将每个添加到 `sitemapindex.xml`_  文件中。"
 
 #: ../../source/advanced-configuration.rst:49
 msgid "Tagged Releases"
-msgstr ""
+msgstr "标记版本"
 
 #: ../../source/advanced-configuration.rst:51
 msgid ""
@@ -89,58 +101,68 @@ msgid ""
 "check to see if the current commit matches the release tag regex and set "
 ":confval:`version` accordingly."
 msgstr ""
+"对于标记版本的部署策略，其中 ``latest`` 从分支的头部创建，版本从标记的提交创建，"
+"请检查当前提交是否与版本标记正则表达式匹配，并相应地设置 :confval:`version`。"
 
 #: ../../source/advanced-configuration.rst:63
 msgid ""
 "Set the canonical URL in the theme layout of all versions to the latest "
 "version of that page, for example:"
 msgstr ""
+"设置主题布局中所有版本的首选 URL 为该页面的最新版本，例如："
 
 #: ../../source/advanced-configuration.rst:72
 msgid "Language Support"
-msgstr ""
+msgstr "语言支持"
 
 #: ../../source/advanced-configuration.rst:74
 msgid ""
 ":confval:`language` specifies the primary language. Any alternative "
 "languages get detected using the contents of :confval:`locale_dirs`."
 msgstr ""
+":confval:`language` 指定了主要语言。任何其他语言都会使用 :confval:`locale_dirs` 中 "
+"内容检测到的其他语言。"
 
 #: ../../source/advanced-configuration.rst:76
 msgid ""
 "For example, with a primary language of **en**, and **es** and **fr** as "
 "detected translations, the sitemap look like this:"
 msgstr ""
+"例如，对于主要语言 **en**，以及 **es** 和 **fr** 作为检测到的翻译，sitemap 如下所示："
 
 #: ../../source/advanced-configuration.rst:96
 msgid ""
 "Use :confval:`sitemap_locales` to manually specify a list of locales to "
 "include in the sitemap:"
 msgstr ""
+"使用 :confval:`sitemap_locales` 手动指定要包含在 sitemap 中的语言列表："
 
 #: ../../source/advanced-configuration.rst:102
 msgid ""
 "The end result looks something like the following for each "
 "language/version build:"
 msgstr ""
+"每个语言/版本构建的最终结果类似于以下内容："
 
 #: ../../source/advanced-configuration.rst:120
 msgid ""
 "To generate the primary language with no alternatives, set "
 ":confval:`sitemap_locales` to ``[None]``:"
 msgstr ""
+"要生成没有替代语言的主要语言，请将 :confval:`sitemap_locales` 设置为 ``[None]``："
 
 #: ../../source/advanced-configuration.rst:126
 msgid ""
 "For multilingual sitemaps, generate a sitemap per language and then "
 "manually add each to a `sitemapindex.xml`_ file."
 msgstr ""
+"对于多语言 sitemap，为每个语言生成 sitemap 并手动将每个添加到 `sitemapindex.xml`_ 文件中。"
 
 #: ../../source/advanced-configuration.rst:131
 msgid "Excluding Pages"
-msgstr ""
+msgstr "排除页面"
 
 #: ../../source/advanced-configuration.rst:133
 msgid "To exclude a set of pages, add each page's path to ``sitemap_exclude``:"
-msgstr ""
+msgstr "要排除一组页面，请将每个页面的路径添加到 ``sitemap_exclude``："
 

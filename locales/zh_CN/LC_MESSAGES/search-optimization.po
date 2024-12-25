@@ -19,49 +19,53 @@ msgstr ""
 
 #: ../../source/search-optimization.rst:2
 msgid "Getting the Most out of the Sitemap"
-msgstr ""
+msgstr "充分利用网站地图"
 
 #: ../../source/search-optimization.rst:5
 msgid "Search Engine Optimization"
-msgstr ""
+msgstr "搜索引擎优化"
 
 #: ../../source/search-optimization.rst:8
 msgid "Using robots.txt"
-msgstr ""
+msgstr "使用 robots.txt"
 
 #: ../../source/search-optimization.rst:10
 msgid ""
 "Add a **robots.txt** file in the **source** directory which has a link to"
 " the ``sitemap.xml`` or ``sitemapindex.xml`` file. For example::"
 msgstr ""
+"添加 **robots.txt** 文件到 **source** 目录，链接到 ``sitemap.xml`` 或"
+" ``sitemapindex.xml`` 文件。例如::"
 
 #: ../../source/search-optimization.rst:16
 msgid "Then, add **robots.txt** to :confval:`html_extra_path` in **conf.py**:"
-msgstr ""
+msgstr "然后，在 **conf.py** 中添加 **robots.txt** 到 :confval:`html_extra_path`:"
 
 #: ../../source/search-optimization.rst:23
 msgid "Submit Sitemap to Search Engines"
-msgstr ""
+msgstr "向搜索引擎提交网站地图"
 
 #: ../../source/search-optimization.rst:25
 msgid ""
 "Submit the ``sitemap.xml`` or ``sitemapindex.xml`` to the appropriate "
 "search engine tools."
 msgstr ""
+"提交 ``sitemap.xml`` 或 ``sitemapindex.xml`` 到适当的搜索引擎工具。"
 
 #: ../../source/search-optimization.rst:28
 msgid "Site Search Optimization"
-msgstr ""
+msgstr "网站搜索优化"
 
 #: ../../source/search-optimization.rst:30
 msgid ""
 "Site search crawlers can also take advantage of sitemaps as starting "
 "points for crawling."
 msgstr ""
+"网站搜索爬虫也可以利用网站地图作为爬取的起始点。"
 
 #: ../../source/search-optimization.rst:32
 msgid "Examples:"
-msgstr ""
+msgstr "示例："
 
 #: ../../source/search-optimization.rst:34
 msgid "`Algolia`_"
